@@ -1,0 +1,43 @@
+UCT DASH — VERCEL ENVIRONMENT VARIABLES
+
+COPY THESE EXACT KEYS INTO VERCEL.
+Do NOT commit secret values to GitHub.
+
+1) DATABASE_URL
+Value: DO NOT TYPE MANUALLY.
+Get it from the Neon integration connected to this Vercel project.
+
+2) GAME_SESSION_SECRET
+Value: CREATE A LONG RANDOM SECRET IN VERCEL.
+Example only (do not reuse): UCTDash-9xK4mP7qL2vN8sR5-2026
+
+3) NEXT_PUBLIC_SPHERE_WALLET_URL
+Value: https://sphere.unicity.network
+
+4) NEXT_PUBLIC_SPHERE_TREASURY_ADDRESS
+Value: YOUR SPHERE TESTNET2 TREASURY DIRECT ADDRESS.
+Do not invent this value.
+
+5) NEXT_PUBLIC_UCT_COIN_ID
+Value: f581d30f593e4b369d684a4563b5246f07b1d265f7178a2c0a82b81f39c24dc0
+
+6) NEXT_PUBLIC_UCT_DECIMALS
+Value: 18
+
+7) NEXT_PUBLIC_DEPOSIT_UCT
+Value: 5
+
+8) NEXT_PUBLIC_ATTEMPTS_PER_DEPOSIT
+Value: 20
+
+9) NEXT_PUBLIC_POOL_SHARE
+Value: 0.50
+
+10) NEXT_PUBLIC_ADMIN_CHAIN_PUBKEY
+Value: YOUR ADMIN SPHERE CHAIN PUBLIC KEY.
+Do not put a private key or recovery phrase here.
+
+IMPORTANT:
+- The Sphere resource specifies testnet2 for the browser Connect handshake.
+- The supplied project uses the testnet2 UCT coin id above and 18 decimals.
+- The treasury address and admin chain public key are deployment-specific and cannot be obtained from the public SDK documentation.

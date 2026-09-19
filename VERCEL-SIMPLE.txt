@@ -1,0 +1,12 @@
+VERSI SEDERHANA - TANPA NEON
+
+Vercel Environment Variable yang wajib diisi:
+
+Key: NEXT_PUBLIC_SPHERE_TREASURY_ADDRESS
+Value: alamat wallet Sphere kamu yang menerima deposit UCT
+
+Tidak perlu DATABASE_URL.
+Tidak perlu GAME_SESSION_SECRET.
+Tidak perlu NEXT_PUBLIC_ADMIN_CHAIN_PUBKEY.
+
+PENTING: versi ini adalah demo/testnet sederhana. Attempts, leaderboard, dan pool disimpan di localStorage browser, sehingga leaderboard BELUM menjadi leaderboard global antar-pengguna. Untuk leaderboard global yang anti-manipulasi, diperlukan database/backend pada tahap berikutnya.
